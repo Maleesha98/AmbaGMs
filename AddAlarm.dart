@@ -44,14 +44,24 @@ class _RetroAlarmState extends State<RetroAlarm> {
                 ),
                 SizedBox(height: 40.0),
                 Container(
-                  height: 180,
-                  child: Align(
-                    alignment: Alignment.centerLeft,
-                    child: Image(
-                      image: AssetImage('Assets/man.png'
-                      ),
-                    ),
-                  ),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        image: DecorationImage(
+                          image: AssetImage("Assets/window.png"),
+                          fit: BoxFit.cover,)),
+                      height: 80,
+                      child: FlatButton(
+                        padding: EdgeInsets.fromLTRB(0, -10, 0, -10),
+                        color: Colors.transparent,
+                        onPressed: () {
+                          // Respond to button press
+                        },
+                        child: Text('Set an App',
+                        style: TextStyle(
+                            fontFamily: 'Joystick',
+                            fontSize: 10.0,
+                            color: Colors.yellow,
+                        ),
                 ),
                 SizedBox(height: 20.0),
                 Row(
