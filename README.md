@@ -1,8 +1,8 @@
 AmbaGMs
 # Hacktoberfest - GeTUp App
-| Add Alarm | Set App | 
-|:-:|:-:|
-| <img src="https://user-images.githubusercontent.com/62130183/97207281-d85c3700-17df-11eb-8564-6cccb6ff912f.PNG" width="250" height="500" /> | <img src="https://user-images.githubusercontent.com/62130202/97190906-50206680-17cc-11eb-96bb-97d0f76a2d8b.jpg" width="250" height="500" /> | 
+| Add Alarm | Set Alarm |Set App | 
+|:-:|:-:|:-:|
+| <img src="https://user-images.githubusercontent.com/62130183/97207281-d85c3700-17df-11eb-8564-6cccb6ff912f.PNG" width="250" height="500" /> | <img src="https://user-images.githubusercontent.com/62130183/97208427-2291e800-17e1-11eb-8d76-bd29895dba91.PNG" width="250" height="500" /> |<img src="https://user-images.githubusercontent.com/62130202/97190906-50206680-17cc-11eb-96bb-97d0f76a2d8b.jpg" width="250" height="500" /> |
 
 
 ## GeTUp
