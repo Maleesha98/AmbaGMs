@@ -1,8 +1,7 @@
 # AmbaGMs
 Hacktoberfest - GeTUp App
 
-<img src="https://user-images.githubusercontent.com/62262712/97178091-0a0fd680-17bd-11eb-8163-8ea380d0a178.png" width="250" height="400" />
-<img src="https://user-images.githubusercontent.com/62130202/97186151-f4071380-17c6-11eb-90f1-20cc479d275f.png" width="250" height=400" />
+<img src="https://user-images.githubusercontent.com/62130202/97188351-6bd63d80-17c9-11eb-9288-7c5a07f96880.png" width="250" height="400" />
 
 
 
