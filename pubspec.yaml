@@ -21,6 +21,8 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  lite_rolling_switch: ^0.1.1
+  intl: ^0.15.7
   flutter:
     sdk: flutter
 
@@ -46,7 +48,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - Assets/
+        - Assets/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

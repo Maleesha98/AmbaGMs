@@ -1,14 +1,25 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lite_rolling_switch/lite_rolling_switch.dart';
+import 'RetroAlarm.dart';
 
 void main() => runApp(MaterialApp(
-  home: RetroAlarm(),
+  home: RetroHome(),
 ));
 
-class RetroAlarm extends StatelessWidget {
+class RetroHome extends StatefulWidget {
+  @override
+  _RetroHomeState createState() => _RetroHomeState();
+}
+
+class _RetroHomeState extends State<RetroHome> {
+  bool _value=true;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        height: double.infinity,
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage("Assets/wall.jpg"),
@@ -31,10 +42,10 @@ class RetroAlarm extends StatelessWidget {
                 ),
                 Align(
                   alignment: Alignment.center,
-                  child: Text("You have 8 hours to sleep",
-                    style: TextStyle(fontFamily: 'Joystick',
-                        fontSize: 18.0,
-                        color: Colors.white)),
+                  child: Text("I will wake you on time",
+                      style: TextStyle(fontFamily: 'Joystick',
+                          fontSize: 18.0,
+                          color: Colors.white)),
                 ),
                 SizedBox(height: 40.0),
                 Container(
@@ -48,99 +59,83 @@ class RetroAlarm extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 20.0),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    Container(
-                      height: 100,
-                      child: FlatButton(
-                        padding: EdgeInsets.fromLTRB(0, -10, 0, -10),
-                        color: Colors.transparent,
-                        onPressed: () {
-                          // Respond to button press
-                        },
-                        child: Image(
-                          image: AssetImage('Assets/up.png'),
-                        ),
-                      ),
-                    ),
-                    Container(
-                      height: 100,
-                      child: FlatButton(
-                        padding: EdgeInsets.fromLTRB(0, -10, 0, -10),
-                        color: Colors.transparent,
-                        onPressed: () {
-                          // Respond to button press
-                        },
-                        child: Image(
-                          image: AssetImage('Assets/up.png'),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
                 Container(
+
+                  padding: const EdgeInsets.symmetric(
+                      horizontal: 10,
+                      vertical: 3),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    image: DecorationImage(
+                      image: AssetImage("Assets/window.png"),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+
 
                   child: Row(
                     children: [
+                      /*LiteRollingSwitch(
+                        textSize: 10,
+                        value: true,
+                        textOn: "On",
+                        textOff: "Off",
+                        colorOn: Colors.deepOrange,
+                        colorOff: Colors.lightBlue,
+                        iconOn: Icons.alarm_on,
+                        iconOff: Icons.alarm_off,
+                      ),*/
                       Text("09",
                           style: TextStyle(fontFamily: 'Joystick',
-                              fontSize: 85.0,
+                              fontSize: 60.0,
                               color: Colors.white)),
                       Text(":",
                           style: TextStyle(fontFamily: 'Joystick',
-                              fontSize: 85.0,
+                              fontSize: 60.0,
                               color: Colors.white)),
                       Text("15",style: TextStyle(fontFamily: 'Joystick',
-                          fontSize: 85.0,
+                          fontSize: 60.0,
                           color: Colors.white)),
+
+                      SizedBox(width: 40),
+                      Column(
+
+                        children: [
+                          Switch(value: _value,
+                            onChanged: (val){
+                              setState(() {
+                                _value=val;
+                              });
+                            },
+                          ),
+
+                          SizedBox(height: 30),
+                          Stack(
+                            children: [
+                              Container(
+                                alignment : Alignment(-1, -1),
+                                child :Text("AM",style: TextStyle(fontFamily: 'Joystick',
+                                    fontSize: 32.0,
+                                    color: Colors.white)),
+                              ),
+                            ],
+                          ),
+                        ],
+                      )
                     ],
                   ),
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    Container(
-                      height: 100,
-                      child: FlatButton(
-                        padding: EdgeInsets.fromLTRB(-5, -5, -5, -5),
-                        color: Colors.transparent,
-                        onPressed: () {
-                          // Respond to button press
-                        },
-                        child: Image(
-                          image: AssetImage('Assets/down.png'),
-                        ),
-                      ),
-                    ),
-                    Container(
-                      height: 100,
-                      child: FlatButton(
-                        padding: EdgeInsets.all(-2),
-                        color: Colors.transparent,
-                        onPressed: () {
-                          // Respond to button press
-                        },
-                        child: Image(
-                          image: AssetImage('Assets/down.png'),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                Container(
-                  height: 100,
-                  child: FlatButton(
-                    padding: EdgeInsets.fromLTRB(-5, -5, -5, -5),
-                    color: Colors.transparent,
-                    onPressed: () {
-                      // Respond to button press
-                    },
+
+
+                FlatButton(onPressed: (){
+
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context)=>RetroAlarm())
+                  );
+                },
                     child: Image(
-                      image: AssetImage('Assets/Button.png'),
-                    ),
-                  ),
-                ),
+                      image: AssetImage('Assets/Add Button.png'),
+                    ))
               ],
             ),
           ),
