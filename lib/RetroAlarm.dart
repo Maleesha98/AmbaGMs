@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+=======
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
+import 'package:lite_rolling_switch/lite_rolling_switch.dart';
+//import 'package:testapp3/main.dart';
+>>>>>>> ff151b55a123891bdee597d5931ee0163c3094f8
 import 'main.dart';
 import 'dart:ui';
 
