@@ -1,9 +1,12 @@
-AmbaGMs
+# AmbaGMs
 Hacktoberfest - GeTUp App
 
 
+<img src="https://user-images.githubusercontent.com/62262712/97178091-0a0fd680-17bd-11eb-8163-8ea380d0a178.png" width="250" height="400" />
 
-# GeTUp
+
+
+## GeTUp
 <a href="https://github.com/Solido/awesome-flutter">
    <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
 </a>
@@ -21,6 +24,21 @@ Among two themes,Retro is the theme that we selected for this task.
 
 
 
+
 Instructions for Setup
 
 The three folders ,which named as Assets,fonts & lib keep on android project file in your PC.Then access the dart file in lib folder to load the very first page of GeTUp.
+
+
+
+
+
+### Contributors
+
+Game created an developed by:
+
+* [Pivithuru Hiruthma](https://github.com/LordStarkLK) (development)
+* [Chamath Chinthana](https://github.com/Chamath428) (development)
+* [Kumud Perera](https://github.com/Kumudperera) (design)
+* [Navod Kamilka](https://github.com/NavodKamilka) (design)
+* [Maleesha Kavindi](https://github.com/Maleesha98) (development)
