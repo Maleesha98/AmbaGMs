@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
+import 'dart:ui';
 
 void main() => runApp(MaterialApp(
   home: RetroAlarm(),
 ));
 
-class RetroAlarm extends StatelessWidget {
+class RetroAlarm extends StatefulWidget {
+  @override
+  _RetroAlarmState createState() => _RetroAlarmState();
+}
+
+class _RetroAlarmState extends State<RetroAlarm> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,9 +38,9 @@ class RetroAlarm extends StatelessWidget {
                 Align(
                   alignment: Alignment.center,
                   child: Text("You have 8 hours to sleep",
-                    style: TextStyle(fontFamily: 'Joystick',
-                        fontSize: 18.0,
-                        color: Colors.white)),
+                      style: TextStyle(fontFamily: 'Joystick',
+                          fontSize: 18.0,
+                          color: Colors.white)),
                 ),
                 SizedBox(height: 40.0),
                 Container(
@@ -101,7 +107,7 @@ class RetroAlarm extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Container(
-                      height: 100,
+                      height: 80,
                       child: FlatButton(
                         padding: EdgeInsets.fromLTRB(-5, -5, -5, -5),
                         color: Colors.transparent,
@@ -114,7 +120,7 @@ class RetroAlarm extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      height: 100,
+                      height: 80,
                       child: FlatButton(
                         padding: EdgeInsets.all(-2),
                         color: Colors.transparent,
