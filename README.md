@@ -1,5 +1,5 @@
-# AmbaGMs
-Hacktoberfest - GeTUp App
+AmbaGMs
+# Hacktoberfest - GeTUp App
 | Add Alarm | Set App | 
 |:-:|:-:|
 | <img src="https://user-images.githubusercontent.com/62130202/97188351-6bd63d80-17c9-11eb-9288-7c5a07f96880.png" width="250" height="400" /> | <img src="https://user-images.githubusercontent.com/62130202/97190906-50206680-17cc-11eb-96bb-97d0f76a2d8b.jpg" width="250" height="400" /> | 
