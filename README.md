@@ -1,18 +1,10 @@
-AmbaGMs
-# Hacktoberfest - GeTUp App
-| Add Alarm | Set App | 
-|:-:|:-:|
-| <img src="https://user-images.githubusercontent.com/62130202/97188351-6bd63d80-17c9-11eb-9288-7c5a07f96880.png" width="250" height="500" /> | <img src="https://user-images.githubusercontent.com/62130202/97190906-50206680-17cc-11eb-96bb-97d0f76a2d8b.jpg" width="250" height="500" /> | 
+# AmbaGMs
+Hacktoberfest - GeTUp App
 
 
-## GeTUp
-<a href="https://github.com/Solido/Awesome-Flutter">
-   <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
-</a>
-<a href="https://github.com/Solido/Create-Dart">
-   <img alt="Awesome Dart" src="https://img.shields.io/badge/Create-Dart-blue.svg?longCache=true&style=flat-square" />
-</a>
 
+
+GeTUp 
 
 This repository has been created as a part of the Escape the Loop; The Hackathon,Hacktoberfest 2020
 
@@ -22,18 +14,7 @@ Among two themes,Retro is the theme that we selected for this task.
 
 
 
-### Instructions for Setup
 
-The three folders ,which named as Assets,fonts & lib keep on android project file in your PC.
-Then access the dart file in lib folder to load the very first page of GeTUp.
+Instructions for Setup
 
-
-### Contributors
-
-App created an developed by:
-
-* [Pivithuru Hiruthma](https://github.com/LordStarkLK) (development)
-* [Chamath Chinthana](https://github.com/Chamath428) (development)
-* [Kumud Perera](https://github.com/Kumudperera) (design)
-* [Navod Kamilka](https://github.com/NavodKamilka) (design)
-* [Maleesha Kavindi](https://github.com/Maleesha98) (design)
+The three folders ,which named as Assets,fonts & lib keep on android project file in your PC.Then access the dart file in lib folder to load the very first page of GeTUp.
