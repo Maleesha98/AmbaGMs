@@ -5,13 +5,9 @@ Hacktoberfest - GeTUp App
 
 
 <b>GeTUp</b> 
-
-
-[![Powered by Flutter](https://flutter.dev/?gclsrc=ds&gclsrc=ds)]
 <a href="https://github.com/Solido/awesome-flutter">
    <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
 </a>
-[![Powered by Dart](https://dart.dev/)]
 <a href="https://github.com/Solido/awesome-Dart">
    <img alt="Awesome Dart" src="https://img.shields.io/badge/Awesome-Dart-blue.svg?longCache=true&style=flat-square" />
 </a>
