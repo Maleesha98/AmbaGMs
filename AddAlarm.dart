@@ -43,7 +43,20 @@ class _RetroAlarmState extends State<RetroAlarm> {
                           color: Colors.white)),
                 ),
                 SizedBox(height: 40.0),
-                Container(
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Container(
+                      height: 180,
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Image(
+                          image: AssetImage('Assets/man.jpg'
+                          ),
+                        ),
+                      ),
+                    ),
+                    Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         image: DecorationImage(
@@ -62,7 +75,9 @@ class _RetroAlarmState extends State<RetroAlarm> {
                             fontSize: 10.0,
                             color: Colors.yellow,
                         ),
-                ),
+                        )
+                      ),
+                    ),
                 SizedBox(height: 20.0),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
