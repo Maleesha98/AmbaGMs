@@ -7,10 +7,10 @@ Hacktoberfest - GeTUp App
 
 
 ## GeTUp
-<a href="https://github.com/Solido/awesome-flutter">
+<a href="https://github.com/Solido/Awesome-Flutter">
    <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
 </a>
-<a href="https://github.com/Solido/awesome-Dart">
+<a href="https://github.com/Solido/Create-Dart">
    <img alt="Awesome Dart" src="https://img.shields.io/badge/Awesome-Dart-blue.svg?longCache=true&style=flat-square" />
 </a>
 
