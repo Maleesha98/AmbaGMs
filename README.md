@@ -7,6 +7,9 @@ Hacktoberfest - GeTUp App
 GeTUp 
 [![Powered by Flutter](https://flutter.dev/?gclsrc=ds&gclsrc=ds)]
 [![Powered by Dart](https://dart.dev/)]
+<a href="https://github.com/Solido/awesome-flutter">
+   <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
+</a>
 This repository has been created as a part of the Escape the Loop; The Hackathon,Hacktoberfest 2020
 
 Keeping alarms to remind personal stuff is a comman feature nowadays.But more people have an bad habit of snozzing alarms nearly 5 or 10 mins when it start to ringing.  Because of this, unnecessary busy created on people with regard of  lot of problems.
