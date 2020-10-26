@@ -42,7 +42,7 @@ class RetroAlarm extends StatelessWidget {
                   child: Align(
                     alignment: Alignment.centerLeft,
                     child: Image(
-                      image: AssetImage('Assets/man.jpg'
+                      image: AssetImage('Assets/man.png'
                       ),
                     ),
                   ),
