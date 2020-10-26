@@ -21,6 +21,8 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  lite_rolling_switch: ^0.1.1
+  intl: ^0.15.7
   flutter:
     sdk: flutter
 
