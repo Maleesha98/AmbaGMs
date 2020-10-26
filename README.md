@@ -1,9 +1,8 @@
 # AmbaGMs
 Hacktoberfest - GeTUp App
-
-<img src="https://user-images.githubusercontent.com/62130202/97188351-6bd63d80-17c9-11eb-9288-7c5a07f96880.png" width="250" height="400" />
-<img src="https://user-images.githubusercontent.com/62130202/97190906-50206680-17cc-11eb-96bb-97d0f76a2d8b.jpg" width="250" height="400" />
-
+| Add Alarm | Set App | 
+|:-:|:-:|
+| <img src="https://user-images.githubusercontent.com/62130202/97188351-6bd63d80-17c9-11eb-9288-7c5a07f96880.png" width="250" height="400" /> | <img src="https://user-images.githubusercontent.com/62130202/97190906-50206680-17cc-11eb-96bb-97d0f76a2d8b.jpg" width="250" height="400" /> | 
 
 
 ## GeTUp
@@ -25,10 +24,8 @@ Among two themes,Retro is the theme that we selected for this task.
 
 ### Instructions for Setup
 
-The three folders ,which named as Assets,fonts & lib keep on android project file in your PC.Then access the dart file in lib folder to load the very first page of GeTUp.
-
-
-
+The three folders ,which named as Assets,fonts & lib keep on android project file in your PC.
+Then access the dart file in lib folder to load the very first page of GeTUp.
 
 
 ### Contributors
