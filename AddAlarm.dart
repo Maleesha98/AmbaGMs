@@ -48,7 +48,7 @@ class _RetroAlarmState extends State<RetroAlarm> {
                   child: Align(
                     alignment: Alignment.centerLeft,
                     child: Image(
-                      image: AssetImage('Assets/man.jpg'
+                      image: AssetImage('Assets/man.png'
                       ),
                     ),
                   ),
