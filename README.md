@@ -15,6 +15,6 @@ Among two themes,Retro is the theme that we selected for this task.
 
 
 
-nstructions for Setup
+Instructions for Setup
 
 The three folders ,which named as Assets,fonts & lib keep on android project file in your PC.Then access the dart file in lib folder to load the very first page of GeTUp.
