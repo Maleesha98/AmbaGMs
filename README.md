@@ -21,7 +21,7 @@ To prevent this drowsy attitude from people, we thought to invent alarm app with
 Among two themes,Retro is the theme that we selected for this task.
 
 
-
+![Demo UI](https://drive.google.com/file/d/1G2EXkoG6SNeBA6ZZBQ-R8Yaqe7MQVqqt/view?usp=drivesdk)
 
 ### Instructions for Setup
 
