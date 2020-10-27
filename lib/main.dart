@@ -48,15 +48,30 @@ class _RetroHomeState extends State<RetroHome> {
                           color: Colors.white)),
                 ),
                 SizedBox(height: 40.0),
-                Container(
-                  height: 180,
-                  child: Align(
-                    alignment: Alignment.centerLeft,
-                    child: Image(
-                      image: AssetImage('Assets/man.jpg'
+                Row(
+                  children: [
+                    Container(
+                      height: 180,
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Image(
+                          image: AssetImage('Assets/man.jpg'
+                          ),
+                        ),
                       ),
                     ),
-                  ),
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 10,
+                          vertical: 3),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        image: DecorationImage(
+                          image: AssetImage("Assets/window.png"),
+                          fit: BoxFit.cover,
+                    )),
+                    child: Text('set'),)
+                      ],
                 ),
                 SizedBox(height: 20.0),
                 Container(
